@@ -1,9 +1,13 @@
 .container {
-    width: 575px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
     height: 825px;
   
     background-color: #797978;
-    padding-left: 30px;
+    /* padding-left: 30px; */
   }
   #height,
   #weight {
